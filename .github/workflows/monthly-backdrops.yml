@@ -2,7 +2,7 @@ name: Monthly Backdrops
 
 on:
   schedule:
-    - cron: "0 4 1 * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -38,6 +38,7 @@ jobs:
             --api-key "$TMDB_API_KEY" \
             --fanart-key "$FANART_API_KEY" \
             --profile compressed \
+            --preferred-language pl \
             --parallelism 3
 
       - name: Clean Python cache folders
