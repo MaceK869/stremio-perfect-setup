@@ -1,1720 +1,2075 @@
 [
   {
-    "id": "collections.discover",
-    "title": "🔭 Discover",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-72d76490",
+    "title": "Odkrywaj",
     "folders": [
       {
-        "id": "collections.discover.recommended",
-        "title": "Recommended",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-ed6f4e86",
+        "title": "Rekomendowane",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "trakt.recommendations.movies",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "trakt.recommendations.movies"
           },
           {
+            "type": "series",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "trakt.recommendations.shows",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "trakt.recommendations.shows"
           }
         ],
-        "coverEmoji": "🎯",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/cover/recommended.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/focused/recommended.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/title/recommended.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/backdrop/recommended.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/BCO.d4b375e7-d180-4bef-8a56-67f972d42bfd.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "trakt.recommendations.movies"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "trakt.recommendations.shows"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/discover/backdrop/recommended.webp?raw=true"
       },
       {
-        "id": "collections.discover.popular",
-        "title": "Popular",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-9898a91a",
+        "title": "Na czasie",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.top",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.87667"
           },
           {
+            "type": "series",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.top",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.88434"
           }
         ],
-        "coverEmoji": "🏆",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/cover/popular.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/focused/popular.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/title/popular.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/backdrop/popular.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/BCO.7c9add0c-abb7-4761-82a3-0fe9b46b0095.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.87667"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88434"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/genres/None-unknown-none/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.discover.trending",
-        "title": "Trending",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-75f39049",
+        "title": "Ostatnio wydane",
+        "sources": [
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.trending",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.2194"
           },
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.trending",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.86934"
           }
         ],
-        "coverEmoji": "🔥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/cover/trending.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/focused/trending.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/title/trending.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/backdrop/trending.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/BCO.27e59223-3401-4cd8-af31-a4eafea690bd.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2194"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.86934"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/genres/None-unknown-none/backdrops/t2_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.discover.top-rated",
-        "title": "Top Rated",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-851d2e7b",
+        "title": "TOP tygodnia",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_rated",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.14"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.top_rated",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.56518"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.13"
           }
         ],
-        "coverEmoji": "⭐",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/cover/top-rated.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/focused/top-rated.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/title/top-rated.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/discover/backdrop/top-rated.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/BCO.4eb95f84-2776-43b7-9430-9fce26d4b4d6.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.14"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.56518"
+          },
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.13"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/genres/None-unknown-none/backdrops/t1_flat_1080p.jpg?raw=true"
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": false
   },
   {
-    "id": "collections.streaming",
-    "title": "🎬 Streaming",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-894ec640",
+    "title": "Gatunki",
     "folders": [
       {
-        "id": "collections.streaming.netflix",
-        "title": "Netflix",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.netflix",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.netflix",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/netflix.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/netflix.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/netflix.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/netflix.webp"
-      },
-      {
-        "id": "collections.streaming.disney-plus",
-        "title": "Disney Plus",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.disney-plus",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.disney-plus",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/disney-plus.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/disney-plus.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/disney-plus.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/disney-plus.webp"
-      },
-      {
-        "id": "collections.streaming.prime-video",
-        "title": "Prime Video",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.prime-video",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.prime-video",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/prime-video.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/prime-video.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/prime-video.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/prime-video.webp"
-      },
-      {
-        "id": "collections.streaming.apple-tv",
-        "title": "Apple TV",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.apple-tv",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.apple-tv",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/apple-tv.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/apple-tv.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/apple-tv.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/apple-tv.webp"
-      },
-      {
-        "id": "collections.streaming.hbo-max",
-        "title": "HBO Max",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.hbo-max",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.hbo-max",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/hbo-max.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/hbo-max.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/hbo-max.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/hbo-max.webp"
-      },
-      {
-        "id": "collections.streaming.hulu",
-        "title": "Hulu",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.hulu",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.hulu",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/hulu.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/hulu.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/hulu.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/hulu.webp"
-      },
-      {
-        "id": "collections.streaming.paramount-plus",
-        "title": "Paramount Plus",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.paramount-plus",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.paramount-plus",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/paramount-plus.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/paramount-plus.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/paramount-plus.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/paramount-plus.webp"
-      },
-      {
-        "id": "collections.streaming.peacock",
-        "title": "Peacock",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.peacock",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.peacock",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/peacock.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/peacock.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/peacock.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/peacock.webp"
-      },
-      {
-        "id": "collections.streaming.crunchyroll",
-        "title": "Crunchyroll",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.crunchyroll",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.crunchyroll",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/crunchyroll.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/crunchyroll.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/crunchyroll.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/crunchyroll.webp"
-      },
-      {
-        "id": "collections.streaming.discovery-plus",
-        "title": "Discovery Plus",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.discovery-plus",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.discovery-plus",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/discovery-plus.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/discovery-plus.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/discovery-plus.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/discovery-plus.webp"
-      },
-      {
-        "id": "collections.streaming.curiosity-stream",
-        "title": "Curiosity Stream",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.streaming.curiosity-stream",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.streaming.curiosity-stream",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎬",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/cover/curiosity-stream.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/focused/curiosity-stream.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/title/curiosity-stream.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/streaming/backdrop/curiosity-stream.webp"
-      }
-    ]
-  },
-  {
-    "id": "collections.genres",
-    "title": "🎭 Genres",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
-    "folders": [
-      {
-        "id": "collections.genres.action",
-        "title": "Action",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.action",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.adventure",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.action-adventure",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/action.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/action.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/action.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/action.webp"
-      },
-      {
-        "id": "collections.genres.animation",
-        "title": "Animation",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.animation",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.animation",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/animation.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/animation.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/animation.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/animation.webp"
-      },
-      {
-        "id": "collections.genres.anime",
-        "title": "Anime",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.airing",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.upcoming",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.schedule",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.seasons",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.80sDecades",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.90sDecades",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.00sDecades",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.10sDecades",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.20sDecades",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.genres",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.studios",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.top_movies",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.top_series",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.most_favorites",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.most_popular",
-            "type": "anime"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "mal.top_anime",
-            "type": "anime"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/anime.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/anime.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/anime.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/anime.webp"
-      },
-      {
-        "id": "collections.genres.comedy",
-        "title": "Comedy",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.comedy",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.comedy",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/comedy.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/comedy.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/comedy.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/comedy.webp"
-      },
-      {
-        "id": "collections.genres.crime",
-        "title": "Crime",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.crime",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.crime",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/crime.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/crime.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/crime.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/crime.webp"
-      },
-      {
-        "id": "collections.genres.documentary",
-        "title": "Documentary",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.documentary",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.documentary",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/documentary.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/documentary.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/documentary.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/documentary.webp"
-      },
-      {
-        "id": "collections.genres.drama",
-        "title": "Drama",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.drama",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.drama",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/drama.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/drama.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/drama.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/drama.webp"
-      },
-      {
-        "id": "collections.genres.family",
-        "title": "Family",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.family",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.kids",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/family.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/family.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/family.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/family.webp"
-      },
-      {
-        "id": "collections.genres.fantasy",
-        "title": "Fantasy",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.fantasy",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.science-fiction",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.sci-fi-fantasy",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/fantasy.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/fantasy.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/fantasy.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/fantasy.webp"
-      },
-      {
-        "id": "collections.genres.history",
-        "title": "History",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.history",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.war",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.war-politics",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/history.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/history.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/history.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/history.webp"
-      },
-      {
-        "id": "collections.genres.horror",
-        "title": "Horror",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.horror",
-            "type": "movie"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/horror.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/horror.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/horror.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/horror.webp"
-      },
-      {
-        "id": "collections.genres.music",
-        "title": "Music",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.music",
-            "type": "movie"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/music.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/music.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/music.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/music.webp"
-      },
-      {
-        "id": "collections.genres.mystery",
+        "id": "folder-a9e124e8",
         "title": "Mystery",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "sources": [
           {
+            "type": "movie",
+            "genre": "Mystery",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.mystery",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.2416"
           },
           {
+            "type": "series",
+            "genre": "Mystery",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.mystery",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.6614"
           }
         ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/mystery.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/mystery.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/mystery.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/mystery.webp"
-      },
-      {
-        "id": "collections.genres.talk",
-        "title": "Talk",
+        "hideTitle": true,
         "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/mystery.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/NjmGXRs0/fa3fc6c7-97a3-4466-aac2-2b388577efda.png",
         "catalogSources": [
           {
+            "type": "movie",
+            "genre": "Mystery",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.news",
-            "type": "series"
+            "catalogId": "mdblist.2416"
           },
           {
+            "type": "series",
+            "genre": "Mystery",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.talk",
-            "type": "series"
+            "catalogId": "mdblist.6614"
           }
         ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/talk.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/talk.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/talk.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/talk.webp"
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/mystery.jpg?raw=true"
       },
       {
-        "id": "collections.genres.reality",
-        "title": "Reality",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-32c6eafa",
+        "title": "Comedy",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "Comedy",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.reality",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.2195"
           },
           {
+            "type": "series",
+            "genre": "Comedy",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.soap",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.3122"
           }
         ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/reality.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/reality.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/reality.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/reality.webp"
-      },
-      {
-        "id": "collections.genres.romance",
-        "title": "Romance",
+        "hideTitle": true,
         "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/comedy.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/9QZX9yWs/b9338342-7969-4288-9471-78284f09c019.png",
         "catalogSources": [
           {
+            "type": "movie",
+            "genre": "Comedy",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.romance",
-            "type": "movie"
+            "catalogId": "mdblist.2195"
+          },
+          {
+            "type": "series",
+            "genre": "Comedy",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3122"
           }
         ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/romance.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/romance.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/romance.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/romance.webp"
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/comedy.jpg?raw=true"
       },
       {
-        "id": "collections.genres.thriller",
+        "id": "folder-9948b165",
+        "title": "Animation",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Animation",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2409"
+          },
+          {
+            "type": "series",
+            "genre": "Animation",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.3808"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/animation.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/3JPJWtHt/4cd19272-5d19-48f6-b1ce-26c7b78635ed.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Animation",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2409"
+          },
+          {
+            "type": "series",
+            "genre": "Animation",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3808"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/animation.jpg?raw=true"
+      },
+      {
+        "id": "folder-b51471fa",
         "title": "Thriller",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "sources": [
           {
+            "type": "movie",
+            "genre": "Thriller",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.thriller",
-            "type": "movie"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/thriller.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/thriller.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/thriller.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/thriller.webp"
-      },
-      {
-        "id": "collections.genres.tv",
-        "title": "TV",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.tv-movie",
-            "type": "movie"
-          }
-        ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/tv.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/tv.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/tv.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/tv.webp"
-      },
-      {
-        "id": "collections.genres.western",
-        "title": "Western",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.genres.western",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.91893"
           },
           {
+            "type": "series",
+            "genre": "Thriller",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.genres.western",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.91894"
           }
         ],
-        "coverEmoji": "🎭",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/cover/western.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/focused/western.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/title/western.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/genres/backdrop/western.webp"
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/thriller.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/sDtD1TRK/1f90229b-13e5-4574-b796-745fd910505a.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Thriller",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.91893"
+          },
+          {
+            "type": "series",
+            "genre": "Thriller",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.91894"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/thriller.jpg?raw=true"
+      },
+      {
+        "id": "folder-5acdadf7",
+        "title": "Horror",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Horror",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2410"
+          },
+          {
+            "type": "series",
+            "genre": "Horror",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.3124"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/horror.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/28P830f7/59af813b-53f8-4ce0-ae6b-3aad10a3838c.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Horror",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2410"
+          },
+          {
+            "type": "series",
+            "genre": "Horror",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3124"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/horror.jpg?raw=true"
+      },
+      {
+        "id": "folder-b11e48a4",
+        "title": "Drama",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Drama",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2408"
+          },
+          {
+            "type": "movie",
+            "genre": "Drama",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.3105"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/drama.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/pXgXystZ/41b91429-b4c2-4fe5-9f65-69aff6605de5.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Drama",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2408"
+          },
+          {
+            "type": "movie",
+            "genre": "Drama",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3105"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/drama.jpg?raw=true"
+      },
+      {
+        "id": "folder-4f757ba5",
+        "title": "Action",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Action",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2407"
+          },
+          {
+            "type": "series",
+            "genre": "Action",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.91213"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/action.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/XYdN59j0/7e762903-edd8-45fc-a7ea-56850b5c7824.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Action",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2407"
+          },
+          {
+            "type": "series",
+            "genre": "Action",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.91213"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/action.jpg?raw=true"
+      },
+      {
+        "id": "folder-84281ef6",
+        "title": "Crime",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Crime",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2411"
+          },
+          {
+            "type": "series",
+            "genre": "Crime",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.3126"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/crime.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/28P830fg/09237370-9471-4786-a611-c60faa5adc78.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Crime",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2411"
+          },
+          {
+            "type": "series",
+            "genre": "Crime",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3126"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/crime.jpg?raw=true"
+      },
+      {
+        "id": "folder-1118ea81",
+        "title": "Sci-Fi",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "Sci-Fi",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.2412"
+          },
+          {
+            "type": "series",
+            "genre": "Sci-Fi",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.3125"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/fantasy.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/YCY2FQpn/7713b5ba-68cc-40aa-944b-dcf408df3ddb.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "Sci-Fi",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.2412"
+          },
+          {
+            "type": "series",
+            "genre": "Sci-Fi",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3125"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/fantasy.jpg?raw=true"
+      },
+      {
+        "id": "folder-fe24e988",
+        "title": "Anime",
+        "sources": [
+          {
+            "type": "series",
+            "genre": "Anime",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.88469"
+          },
+          {
+            "type": "movie",
+            "genre": "Anime",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.88468"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "POSTER",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/genres/title/anime.png?raw=true",
+        "coverImageUrl": "https://i.postimg.cc/02L2rVqz/213ceb5f-f631-4bbb-9ab7-d620f670949c.png",
+        "catalogSources": [
+          {
+            "type": "series",
+            "genre": "Anime",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88469"
+          },
+          {
+            "type": "movie",
+            "genre": "Anime",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88468"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/anime.jpg?raw=true"
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": false
   },
   {
-    "id": "collections.themes",
-    "title": "🎨 Themes",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-c995f4fa",
+    "title": "Platformy",
     "folders": [
       {
-        "id": "collections.themes.time-travel",
-        "title": "Time Travel",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-3ab7c034",
+        "title": "Netflix",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.time-travel",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.nfx_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.time-travel",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.nfx_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 213,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 213,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 213,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/time-travel.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/time-travel.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/time-travel.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/time-travel.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://i.postimg.cc/bYSwjtwD/Netflix.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/bYSwjtwD/Netflix.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.nfx_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.nfx_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/213-netflix/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.revenge",
-        "title": "Revenge",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-05f2f872",
+        "title": "HBO Max",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.revenge",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.hbm_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.revenge",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.hbm_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 49,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 49,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 49,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/revenge.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/revenge.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/revenge.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/revenge.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://i.postimg.cc/QC78gRzh/HBO-max.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/QC78gRzh/HBO-max.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.hbm_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.hbm_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/49-hbo/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.spy",
-        "title": "Spy",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-72e575d9",
+        "title": "Disney+",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.spy",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.dnp_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.spy",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.dnp_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 2739,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 2739,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 2739,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/spy.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/spy.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/spy.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/spy.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://nuvioapp.space/uploads/covers/9c848b95-647e-41ca-8852-31294d6eb883.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/nV9htDhM/Disney.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.dnp_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.dnp_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/2739-disney/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.magic",
-        "title": "Magic",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-647bb945",
+        "title": "Prime Video",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.magic",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.amp_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.magic",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.amp_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 1024,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 1024,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 1024,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/magic.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/magic.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/magic.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/magic.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://nuvioapp.space/uploads/covers/a544d1db-3cf2-46a0-ad55-41a208ed16d4.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/RCJZzHZH/Prime.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.amp_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.amp_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/1024-prime-video/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.k-drama",
-        "title": "K-Drama",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-ec2f1400",
+        "title": "Apple TV",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.k-drama",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.atp_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.k-drama",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.pmp_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 2552,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 2552,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 2552,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/k-drama.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/k-drama.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/k-drama.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/k-drama.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://nuvioapp.space/uploads/covers/c7408c25-6176-4252-91a2-c68e34311e44.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/MHB60hLx/Apple-TV.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.atp_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.pmp_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.treasure-hunt",
-        "title": "Treasure Hunt",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-0eb7533b",
+        "title": "Paramount+",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.treasure-hunt",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.pmp_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.treasure-hunt",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "streaming.pmp_series"
+          },
+          {
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 4330,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 4330,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
+          },
+          {
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 4330,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/treasure-hunt.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/treasure-hunt.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/treasure-hunt.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/treasure-hunt.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://nuvioapp.space/uploads/covers/3a708516-52a3-4373-8647-4a0dbf181e2b.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/QC78gRzZ/Paramount.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.pmp_movie"
+          },
+          {
+            "type": "series",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "streaming.pmp_series"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/4330-paramount/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "collections.themes.romantic-comedy",
-        "title": "Romantic Comedy",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-de89dd4a",
+        "title": "Hulu",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.romantic-comedy",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.hlu_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.romantic-comedy",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/romantic-comedy.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/romantic-comedy.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/romantic-comedy.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/romantic-comedy.webp"
-      },
-      {
-        "id": "collections.themes.coming-of-age",
-        "title": "Coming of Age",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.coming-of-age",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "streaming.hlu_series"
           },
           {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.coming-of-age",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/coming-of-age.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/coming-of-age.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/coming-of-age.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/coming-of-age.webp"
-      },
-      {
-        "id": "collections.themes.superhero",
-        "title": "Superhero",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.superhero",
-            "type": "movie"
+            "title": "Popularne",
+            "sortBy": "popularity.desc",
+            "tmdbId": 453,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           },
           {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.superhero",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/superhero.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/superhero.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/superhero.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/superhero.webp"
-      },
-      {
-        "id": "collections.themes.space",
-        "title": "Space",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.space",
-            "type": "movie"
+            "title": "Najwyżej Oceniane",
+            "sortBy": "vote_average.desc",
+            "tmdbId": 453,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           },
           {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.space",
-            "type": "series"
+            "title": "Ostatnio Wydane",
+            "sortBy": "first_air_date.desc",
+            "tmdbId": 453,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "TV",
+            "tmdbSourceType": "NETWORK"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/space.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/space.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/space.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/space.webp"
-      },
-      {
-        "id": "collections.themes.martial-arts",
-        "title": "Martial Arts",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://nuvioapp.space/uploads/covers/a0216e2b-0142-40c6-a9da-994a67ec9c21.png",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/QC78gRzr/Hulu.png",
         "catalogSources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.martial-arts",
-            "type": "movie"
+            "catalogId": "streaming.hlu_movie"
           },
           {
+            "type": "series",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.martial-arts",
-            "type": "series"
+            "catalogId": "streaming.hlu_series"
           }
         ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/martial-arts.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/martial-arts.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/martial-arts.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/martial-arts.webp"
-      },
-      {
-        "id": "collections.themes.vampire",
-        "title": "Vampire",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.vampire",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.vampire",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/vampire.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/vampire.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/vampire.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/vampire.webp"
-      },
-      {
-        "id": "collections.themes.satire",
-        "title": "Satire",
-        "tileShape": "POSTER",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.theme.satire",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.theme.satire",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🎨",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/cover/satire.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/focused/satire.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/title/satire.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/themes/backdrop/satire.webp"
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/453-hulu/backdrops/t2_flat_1080p.jpg?raw=true"
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "FOLLOW_LAYOUT",
+    "showAllTab": false,
+    "focusGlowEnabled": false
   },
   {
-    "id": "collections.studios",
-    "title": "🏰 Studios",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-1f52b999",
+    "title": "Kolekcje",
     "folders": [
       {
-        "id": "collections.studios.cartoon-network",
-        "title": "Cartoon Network",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.cartoon-network",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.cartoon-network",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/cartoon-network.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/cartoon-network.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/cartoon-network.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/cartoon-network.webp"
-      },
-      {
-        "id": "collections.studios.dc",
-        "title": "DC",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.dc",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.dc",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/dc.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/dc.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/dc.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/dc.webp"
-      },
-      {
-        "id": "collections.studios.dreamworks",
-        "title": "DreamWorks",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.dreamworks",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.dreamworks",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/dreamworks.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/dreamworks.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/dreamworks.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/dreamworks.webp"
-      },
-      {
-        "id": "collections.studios.ghibli",
-        "title": "Ghibli",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.ghibli",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.ghibli",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/ghibli.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/ghibli.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/ghibli.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/ghibli.webp"
-      },
-      {
-        "id": "collections.studios.marvel",
-        "title": "Marvel",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.marvel",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.marvel",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/marvel.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/marvel.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/marvel.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/marvel.webp"
-      },
-      {
-        "id": "collections.studios.nickelodeon",
-        "title": "Nickelodeon",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.nickelodeon",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.nickelodeon",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/nickelodeon.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/nickelodeon.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/nickelodeon.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/nickelodeon.webp"
-      },
-      {
-        "id": "collections.studios.pixar",
-        "title": "Pixar",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.pixar",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.pixar",
-            "type": "series"
-          }
-        ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/pixar.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/pixar.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/pixar.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/pixar.webp"
-      },
-      {
-        "id": "collections.studios.star-wars",
+        "id": "folder-44b583fa",
         "title": "Star Wars",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "sources": [
           {
+            "type": "all",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.studios.star-wars",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.studios.star-wars",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.155432"
           }
         ],
-        "coverEmoji": "🏰",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/cover/star-wars.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/focused/star-wars.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/title/star-wars.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/studios/backdrop/star-wars.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/starwars.png",
+        "catalogSources": [
+          {
+            "type": "all",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.155432"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp14709709.jpg"
+      },
+      {
+        "id": "folder-e9847c1e",
+        "title": "Marvel",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.155761"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/marvel.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.155761"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp4884716.jpg"
+      },
+      {
+        "id": "folder-b8297e01",
+        "title": "DC",
+        "sources": [
+          {
+            "type": "all",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.155483"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/dcuniverse.png",
+        "catalogSources": [
+          {
+            "type": "all",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.155483"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12429546.jpg"
+      },
+      {
+        "id": "folder-8a9fa884",
+        "title": "Harry Potter",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.102972"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/harrypotter.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.102972"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp9022257.jpg"
+      },
+      {
+        "id": "folder-2839a447",
+        "title": "Hunger Games",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.76527"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/s2G1yXwf/thehungergames.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.76527"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/ftkzjLh.jpg"
+      },
+      {
+        "id": "folder-aa83c2af",
+        "title": "John Wick",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.102978"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/9MbZ8xMy/0586823e-234a-4e9c-95c0-b09d5e6abb3f.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.102978"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/cQ2U1altwmnRgIHD8cPhMpDmXIg.jpg"
+      },
+      {
+        "id": "folder-cf8ca56c",
+        "title": "Fast and Furious",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.16835"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/fastandfurious.png",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.16835"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12301425.jpg"
+      },
+      {
+        "id": "folder-12bed29e",
+        "title": "Back to the Future",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 264,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/backtothefuture.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp8115040.jpg"
+      },
+      {
+        "id": "folder-01c040a5",
+        "title": "Toy Story",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 10194,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/VvcKgx0Y/87a9faf2-48d2-4c83-8411-dca035f32f2e.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12746951.jpg"
+      },
+      {
+        "id": "folder-e6a9db34",
+        "title": "Scary Movie",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 4246,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/scarymovie.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp6287911.jpg"
+      },
+      {
+        "id": "folder-f154b516",
+        "title": "Pirates of the Caribbean",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 295,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/kMxD8Wy7/00bf4f77-f1d0-4bfe-ab1d-fb8c69c3c458.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp1954343.jpg"
+      },
+      {
+        "id": "folder-4b89514e",
+        "title": "007",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 645,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/007.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12398538.jpg"
+      },
+      {
+        "id": "folder-6c0e6be4",
+        "title": "Lord of the Rings",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 119,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/thelordoftherings.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp15245095.webp"
+      },
+      {
+        "id": "folder-b6ddba54",
+        "title": "Shrek",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 2150,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/BvRf8ffb/c6e7bcf6-166e-416e-b2e9-5a2ab7fbd6b8.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp13005966.jpg"
+      },
+      {
+        "id": "folder-1e8be15b",
+        "title": "Mission: Impossible",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 87359,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/sx1Zg7P7/f167569a-0597-491c-a2be-8d90062d8dd9-1.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12592249.jpg"
+      },
+      {
+        "id": "folder-8069698e",
+        "title": "The Terminator",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 528,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/CKkm43fJ/36746cdc-d980-4b6d-aba6-51625318f7fb.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp15259876.jpg"
+      },
+      {
+        "id": "folder-36174308",
+        "title": "Avatar",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 87096,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://i.postimg.cc/52qng4wX/b34353d7-1cf2-40ad-ad06-41091d2807ef.jpg",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://image.tmdb.org/t/p/original/vL5LR6WdxWPjLPFRLe133jXWsh5.jpg"
+      },
+      {
+        "id": "folder-8f1ff67d",
+        "title": "Indiana Jones",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 84,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/indianajones.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12432791.jpg"
+      },
+      {
+        "id": "folder-3f3fcd8d",
+        "title": "Jurassic Park",
+        "sources": [
+          {
+            "title": "TMDB Movie Collection",
+            "sortBy": "original",
+            "tmdbId": 328,
+            "filters": {},
+            "provider": "tmdb",
+            "mediaType": "MOVIE",
+            "tmdbSourceType": "COLLECTION"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverImageUrl": "https://raw.githubusercontent.com/eddddamr/fusion-folder/refs/heads/main/jurassicpark.png",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://wallpapercave.com/wp/wp12401754.jpg"
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": false
   },
   {
-    "id": "collections.decades",
-    "title": "🎥 Decades",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-45a026dd",
+    "title": "Dekady",
     "folders": [
       {
-        "id": "collections.decades.2020s",
-        "title": "2020s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-4848d508",
+        "title": "20s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.2020s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.2020s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.83492"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/2020s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/2020s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/2020s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/2020s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/2020s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/0y4gR4TF/c34e1ca4-20b7-4ee1-a0f4-e3eaedd11f8a.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.83492"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.2010s",
-        "title": "2010s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-568e568d",
+        "title": "10s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.2010s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.2010s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.88338"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/2010s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/2010s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/2010s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/2010s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/2010s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/4N4jKZs4/7dfab725-42aa-4bf3-9df1-da6066ac8973.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88338"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.2000s",
-        "title": "2000s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-af2d8ab2",
+        "title": "00s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.2000s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.2000s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.88336"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/2000s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/2000s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/2000s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/2000s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/2000s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/gj240zRC/3d70da09-2d0e-489e-b76a-d6c04f851e33.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88336"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.1990s",
-        "title": "1990s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-54c03214",
+        "title": "90s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.1990s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.1990s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.88335"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/1990s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/1990s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/1990s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/1990s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/1990s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/hPH8kbyF/d95c44b0-3100-4c5f-a52e-5c6674b58aa7.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88335"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.1980s",
-        "title": "1980s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-39c6bac5",
+        "title": "80s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.1980s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.1980s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.88337"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/1980s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/1980s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/1980s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/1980s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/1980s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/pT4YPfW8/939476ac-33f7-4931-8d01-782e8ca9177f.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.88337"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.1970s",
-        "title": "1970s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-d59132a2",
+        "title": "70s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.1970s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.1970s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.127962"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/1970s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/1970s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/1970s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/1970s.webp"
+        "hideTitle": false,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/1970s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://i.postimg.cc/VNTbtz3Z/e065683e-8588-491a-87ce-57aed17de117.jpg",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "None",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.127962"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       },
       {
-        "id": "collections.decades.1960s",
-        "title": "1960s",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-ab15241f",
+        "title": "60s",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.1960s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.1960s",
-            "type": "series"
+            "provider": "addon",
+            "catalogId": "mdblist.144321"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/1960s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/1960s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/1960s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/1960s.webp"
-      },
-      {
-        "id": "collections.decades.1950s",
-        "title": "1950s",
-        "tileShape": "LANDSCAPE",
         "hideTitle": false,
-        "focusGifEnabled": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/focused/1960s.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/decades/cover/1960s.jpg?raw=true",
         "catalogSources": [
           {
+            "type": "movie",
+            "genre": "None",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.decades.1950s",
-            "type": "movie"
-          },
-          {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.series.decades.1950s",
-            "type": "series"
+            "catalogId": "mdblist.144321"
           }
         ],
-        "coverEmoji": "🎥",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/cover/1950s.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/focused/1950s.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/title/1950s.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/decades/backdrop/1950s.webp"
+        "focusGifEnabled": true,
+        "heroBackdropUrl": ""
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "focusGlowEnabled": false
   },
   {
-    "id": "collections.runtime",
-    "title": "🕒 Runtime",
-    "showAllTab": true,
-    "viewMode": "FOLLOW_LAYOUT",
-    "pinToTop": true,
-    "focusGlowEnabled": true,
+    "id": "collection-17ea486c",
+    "title": "Oparte na...",
     "folders": [
       {
-        "id": "collections.runtime.short",
-        "title": "Short (<90 min)",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-b5bf5bfc",
+        "title": "FAKTACH",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.runtime.short",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.3921"
           }
         ],
-        "coverEmoji": "🕒",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/cover/short.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/focused/short.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/title/short.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/backdrop/short.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/Copilot_20260511_121204.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.3921"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/AD71ABEA-C42D-42C7-9C6E-77E585960C82.png?raw=true"
       },
       {
-        "id": "collections.runtime.standard",
-        "title": "Standard (90-150 min)",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-3523a81a",
+        "title": "GRACH",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.runtime.standard",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.28686"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.28690"
           }
         ],
-        "coverEmoji": "🕒",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/cover/standard.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/focused/standard.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/title/standard.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/backdrop/standard.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/Copilot_20260511_123718.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.28686"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.28690"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/CF9FB7C3-52C1-46DD-8885-1EC1E3243172.png?raw=true"
       },
       {
-        "id": "collections.runtime.long",
-        "title": "Long (150-180 min)",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-daf4bc24",
+        "title": "KOMIKSACH",
+        "sources": [
           {
+            "type": "movie",
+            "genre": "",
             "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.runtime.long",
-            "type": "movie"
+            "provider": "addon",
+            "catalogId": "mdblist.28685"
+          },
+          {
+            "type": "series",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "mdblist.28689"
           }
         ],
-        "coverEmoji": "🕒",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/cover/long.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/focused/long.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/title/long.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/backdrop/long.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/Copilot_20260511_124052.png?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.28685"
+          },
+          {
+            "type": "series",
+            "addonId": "aio-metadata",
+            "catalogId": "mdblist.28689"
+          }
+        ],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://i.postimg.cc/7YbN4zKg/723CDF1D-D9AF-4765-A567-79D86E11FF2E.png"
       },
       {
-        "id": "collections.runtime.epic",
-        "title": "Epic (180+ min)",
-        "tileShape": "LANDSCAPE",
-        "hideTitle": false,
-        "focusGifEnabled": true,
-        "catalogSources": [
+        "id": "folder-c919da55",
+        "title": "BIOGRAFII",
+        "sources": [
           {
-            "addonId": "aio-metadata",
-            "catalogId": "tmdb.discover.movie.runtime.epic",
-            "type": "movie"
+            "title": "Biopics - Biographical films (2000-Now)",
+            "sortBy": "popularity",
+            "sortHow": "asc",
+            "provider": "trakt",
+            "mediaType": "MOVIE",
+            "traktListId": 848801
           }
         ],
-        "coverEmoji": "🕒",
-        "coverImageUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/cover/epic.webp",
-        "focusGifUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/focused/epic.webp",
-        "titleLogoUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/title/epic.webp",
-        "heroBackdropUrl": "https://cdn.jsdelivr.net/gh/luckynumb3rs/stremio-perfect-setup/collections/runtime/backdrop/epic.webp"
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/Copilot_20260511_124300.png?raw=true",
+        "catalogSources": [],
+        "focusGifEnabled": false,
+        "heroBackdropUrl": "https://i.postimg.cc/PrNMHDS9/C7459675-588A-4A60-A013-1E94598F40BB.png"
       }
-    ]
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": true
+  },
+  {
+    "id": "collection-198ca402",
+    "title": "Czas Trwania",
+    "folders": [
+      {
+        "id": "folder-fe018191",
+        "title": "Krótkie",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.do_90_min.mpdwtxbe"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/focused/short.webp?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/cover/short.jpg?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.movie.do_90_min.mpdwtxbe"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/backdrop/short.jpg?raw=true"
+      },
+      {
+        "id": "folder-40009e3c",
+        "title": "Standard",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.90_150min.mpdww84l"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/focused/standard.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/cover/standard.jpg?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.movie.90_150min.mpdww84l"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/backdrop/standard.jpg?raw=true"
+      },
+      {
+        "id": "folder-e9795148",
+        "title": "Długie",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.150_180.mpdwxffo"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/focused/long.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/cover/long.jpg?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.movie.150_180.mpdwxffo"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/backdrop/long.jpg?raw=true"
+      },
+      {
+        "id": "folder-dc045917",
+        "title": "Bardzo Długie",
+        "sources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "provider": "addon",
+            "catalogId": "tmdb.discover.movie.180.mpdwz98b"
+          }
+        ],
+        "hideTitle": true,
+        "tileShape": "LANDSCAPE",
+        "coverEmoji": "",
+        "focusGifUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/focused/epic.gif?raw=true",
+        "heroVideoUrl": "",
+        "titleLogoUrl": "",
+        "coverImageUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/cover/epic.jpg?raw=true",
+        "catalogSources": [
+          {
+            "type": "movie",
+            "genre": "",
+            "addonId": "aio-metadata",
+            "catalogId": "tmdb.discover.movie.180.mpdwz98b"
+          }
+        ],
+        "focusGifEnabled": true,
+        "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/runtime/backdrop/epic.jpg?raw=true"
+      }
+    ],
+    "pinToTop": false,
+    "viewMode": "TABBED_GRID",
+    "showAllTab": true,
+    "backdropImageUrl": "",
+    "focusGlowEnabled": true
   }
 ]
