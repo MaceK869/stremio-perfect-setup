@@ -1,10 +1,10 @@
 [
   {
-    "id": "collection-72d76490",
+    "id": "collections.discover",
     "title": "Odkrywaj",
     "folders": [
       {
-        "id": "folder-ed6f4e86",
+        "id": "collections.discover.recommended",
         "title": "Rekomendowane",
         "sources": [
           {
@@ -45,7 +45,7 @@
         "heroBackdropUrl": "https://github.com/luckynumb3rs/stremio-perfect-setup/blob/main/collections/discover/backdrop/recommended.webp?raw=true"
       },
       {
-        "id": "folder-9898a91a",
+        "id": "collections.discover.popular",
         "title": "Na czasie",
         "sources": [
           {
@@ -86,7 +86,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/genres/None-unknown-none/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-75f39049",
+        "id": "collections.discover.latest",
         "title": "Ostatnio wydane",
         "sources": [
           {
@@ -129,7 +129,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/genres/None-unknown-none/backdrops/t2_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-851d2e7b",
+        "id": "collections.discover.top-rated",
         "title": "TOP tygodnia",
         "sources": [
           {
@@ -192,11 +192,11 @@
     "focusGlowEnabled": false
   },
   {
-    "id": "collection-894ec640",
+    "id": "collections.genres",
     "title": "Gatunki",
     "folders": [
       {
-        "id": "folder-a9e124e8",
+        "id": "collections.genres.mystery",
         "title": "Mystery",
         "sources": [
           {
@@ -239,7 +239,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/mystery.jpg?raw=true"
       },
       {
-        "id": "folder-32c6eafa",
+        "id": "collections.genres.comedy",
         "title": "Comedy",
         "sources": [
           {
@@ -282,7 +282,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/comedy.jpg?raw=true"
       },
       {
-        "id": "folder-9948b165",
+        "id": "collections.genres.animation",
         "title": "Animation",
         "sources": [
           {
@@ -325,7 +325,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/animation.jpg?raw=true"
       },
       {
-        "id": "folder-b51471fa",
+        "id": "collections.genres.thriller",
         "title": "Thriller",
         "sources": [
           {
@@ -368,7 +368,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/thriller.jpg?raw=true"
       },
       {
-        "id": "folder-5acdadf7",
+        "id": "collections.genres.horror",
         "title": "Horror",
         "sources": [
           {
@@ -411,7 +411,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/horror.jpg?raw=true"
       },
       {
-        "id": "folder-b11e48a4",
+        "id": "collections.genres.drama",
         "title": "Drama",
         "sources": [
           {
@@ -454,7 +454,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/drama.jpg?raw=true"
       },
       {
-        "id": "folder-4f757ba5",
+        "id": "collections.genres.action",
         "title": "Action",
         "sources": [
           {
@@ -497,7 +497,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/action.jpg?raw=true"
       },
       {
-        "id": "folder-84281ef6",
+        "id": "collections.genres.crime",
         "title": "Crime",
         "sources": [
           {
@@ -540,7 +540,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/crime.jpg?raw=true"
       },
       {
-        "id": "folder-1118ea81",
+        "id": "collections.genres.scifi",
         "title": "Sci-Fi",
         "sources": [
           {
@@ -583,7 +583,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/stremio-perfect-setup/blob/main/collections/genres/backdrop/fantasy.jpg?raw=true"
       },
       {
-        "id": "folder-fe24e988",
+        "id": "collections.genres.anime",
         "title": "Anime",
         "sources": [
           {
@@ -632,11 +632,11 @@
     "focusGlowEnabled": false
   },
   {
-    "id": "collection-c995f4fa",
+    "id": "collections.streaming",
     "title": "Platformy",
     "folders": [
       {
-        "id": "folder-3ab7c034",
+        "id": "collections.streaming.netflix",
         "title": "Netflix",
         "sources": [
           {
@@ -706,7 +706,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/213-netflix/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-05f2f872",
+        "id": "collections.streaming.hbo-max",
         "title": "HBO Max",
         "sources": [
           {
@@ -776,7 +776,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/49-hbo/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-72e575d9",
+        "id": "collections.streaming.disney-plus",
         "title": "Disney+",
         "sources": [
           {
@@ -846,7 +846,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/2739-disney/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-647bb945",
+        "id": "collections.streaming.prime-video",
         "title": "Prime Video",
         "sources": [
           {
@@ -916,7 +916,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/1024-prime-video/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-ec2f1400",
+        "id": "collections.streaming.apple-tv",
         "title": "Apple TV",
         "sources": [
           {
@@ -986,7 +986,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/2552-apple-tv/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-0eb7533b",
+        "id": "collections.streaming.paramount-plus",
         "title": "Paramount+",
         "sources": [
           {
@@ -1056,7 +1056,7 @@
         "heroBackdropUrl": "https://github.com/MaceK869/prism-wallpapers/blob/main/collections/networks/4330-paramount/backdrops/t2_flat_1080p.jpg?raw=true"
       },
       {
-        "id": "folder-de89dd4a",
+        "id": "collections.streaming.hulu",
         "title": "Hulu",
         "sources": [
           {
